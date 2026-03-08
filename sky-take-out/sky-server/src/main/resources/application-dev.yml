@@ -1,0 +1,32 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306 #mysql默认占用端口号3306
+    database: sky_take_out
+    username: root
+#    此处填写你的mysql密码
+#    password:
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+#    填写你的阿里云oss相关信息
+#    access-key-id:
+#    access-key-secret:
+#    bucket-name:
+  redis:
+    host: localhost
+    port: 6379  #redis默认占用端口号6379
+# 填写你的mysql密码
+#    password:
+    database: 10
+# 用不上wechat支付，因为个人用户不给开启微信支付
+#  wechat:
+#    appid:
+#    secret:
+#    mchid:
+#    mchSerialNo:
+#    privateKeyFilePath:
+#    apiV3Key:
+#    weChatPayCertFilePath:
+#    notifyUrl:
+#    refundNotifyUrl:
